@@ -9,10 +9,5 @@ public class Main {
         mercedes.move(40, 0);  // Move the car initially
         mercedes.accelerate(20);  // Accelerate the car
         mercedes.accelerate(-60);  // Decelerate the car
-
-        // Test the Boat class
-        Boat yacht = new Boat("Yacht", 20);
-        System.out.println("Boat name: " + yacht.getVehicleName());
-        System.out.println("Boat capacity: " + yacht.getVehicleCapacity());
     }
 }
